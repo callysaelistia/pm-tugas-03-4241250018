@@ -4,7 +4,7 @@
 - Nama: Callysa Elistia
 - NIM: 4241250018
 - Kelas: PSIK 24C
-- Mata Kuliah: Pemrograman Mobile (3KOM40215)[cite: 2]
+- Mata Kuliah: Pemrograman Mobile (3KOM40215)
 
 ## Tangkapan Layar Sesi
 ![Screenshot Sesi Console](screenshot.png)

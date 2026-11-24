@@ -7,8 +7,10 @@
 - Mata Kuliah: Pemrograman Mobile (3KOM40215)
 
 ## Tangkapan Layar Sesi
-![Screenshot Sesi Console](screenshot.png)
-*(Sesi di atas memuat pengujian input nilai tidak valid `"90"` yang berhasil ditangani dan diabaikan sebelum mencetak KHS).*
+![Sesi 1](sesi-1.png)
+![Sesi 2](sesi-2.png)
+
+*(Tangkapan layar memperlihatkan pengujian input data mata kuliah termasuk input tidak valid yang ditangani program serta hasil akhir perhitungan IP/KHS).*
 
 ## Penjelasan Higher-Order Function dan Error Handling
 Pada program ini, **higher-order function** dipakai pada beberapa fungsi utama. Pertama, fungsi `hitungIp` dan `cetakKhs` menggunakan method `.fold()` dengan fungsi anonim akumulator untuk menjumlahkan total SKS dan menghitung akumulasi bobot dikali SKS[cite: 18]. Kedua, fungsi `cetakKhs` memakai method `.sort()` dengan fungsi pembanding `(a, b) => bobot(b.nilai).compareTo(bobot(a.nilai))` untuk mengurutkan mata kuliah dari nilai tertinggi[cite: 18]. Ketiga, fungsi `cetakKhs` menggunakan `.where()` dan `.map()` untuk menyaring mata kuliah dengan bobot di bawah `2.0` sebagai daftar yang perlu diperbaiki[cite: 18].
